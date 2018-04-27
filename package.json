@@ -1,0 +1,43 @@
+{
+	"name": "metadater",
+	"version": "0.0.0",
+	"description": "Add metadata to your deployed app",
+	"license": "MIT",
+	"repository": "caroso1222/metadater",
+	"author": {
+		"name": "Carlos Edinson Roso Espinosa",
+		"email": "ce.roso398@gmail.com",
+		"url": "github.com/caroso1222/metadater"
+	},
+	"bin": "cli.js",
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && nyc ava"
+	},
+	"files": [
+		"index.js",
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		""
+	],
+	"dependencies": {
+		"meow": "^3.7.0"
+	},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"codecov": "^2.2.0",
+		"nyc": "^11.0.0",
+		"xo": "^0.18.2"
+	},
+	"nyc": {
+		"reporter": [
+			"lcov",
+			"text"
+		]
+	}
+}
