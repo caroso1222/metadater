@@ -1,6 +1,6 @@
 # metadater [![Build Status](https://travis-ci.org/caroso1222/metadater.svg?branch=master)](https://travis-ci.org/caroso1222/metadater) [![codecov](https://codecov.io/gh/caroso1222/metadater/badge.svg?branch=master)](https://codecov.io/gh/caroso1222/metadater?branch=master)
 
-> Add metadata to your deployed app
+> Add metadata to your deployed application
 
 
 ## Install
